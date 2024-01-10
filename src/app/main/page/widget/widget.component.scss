@@ -1,0 +1,152 @@
+/* The Rectangle*/
+.widget {
+  // replace this with your code
+  background-color: white;
+  border-radius: 10px;
+  width: 267px;
+  height: 310px;
+  box-shadow: 0px 4px 4px #d3e1da;
+}
+
+ul{
+  //margin-right: 200px ;
+  padding-top: 15px;
+  margin: 0 -30px; 
+}
+
+
+
+.indentation {
+  flex-direction: column;
+  padding-top: 10px;
+  padding-left: 21px;
+  /* Long-Term Goals */
+  .head {
+    width: 204px;
+    height: 23px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    color: #ee8b72;
+  }
+
+  /* Group that include both line and text */
+  .group {
+    display: flex;
+    flex-direction: row;
+    vertical-align: top;
+   
+
+    /* line 1 */
+    .line {
+      
+      width: 0px;
+      height: 66px;
+      border: 1.25px solid #ee8b72;
+      margin: 3px;
+      margin-top: 9px;
+    }
+    /* combo that include both subhead and text */
+    .combo {
+      width:204px;
+      height: 89 px;
+       
+  
+      /* 1 Year & 5 year */
+      .subHead {
+        width: 161px;
+        height: 23px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 21.94px;
+        color: #ee8b72;
+        margin-top: -10px;
+        margin-right: 100px;
+
+       
+      }
+    
+      /* Text */
+      .text {
+        margin: 0px;
+        width: 204px;
+        height: 20px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 0px;
+        color: #4b5853;
+      } 
+      padding-bottom: 10px;
+    
+    }
+
+  }
+
+  
+}
+
+.combo {
+
+  /* 1 Year & 5 year */
+  .subHead {
+    width: 161px;
+    height: 23px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21.94px;
+    color: #ee8b72;
+  }
+
+  /* Text */
+  .text {
+    margin: 0px;
+    width: 204px;
+    height: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 0px;
+    color: #4b5853;
+  }
+  
+
+}
+
+
+
+
+/* line 2 */
+.line2 {
+  width: 0px;
+  height: 89px;
+  border: 1.25px solid #ee8b72;
+  margin: 3px;
+  margin-top: 9px;
+}
+
+/* Icon */
+.pencil {
+  width: 26px;
+  height: 26px;
+  display: block;
+  margin-top: -25px;
+  margin-left: 200px;
+}
+
+/* Click_message */
+.click_message {
+  margin-top: 55px;
+}
+
+/////////////////////////////////// Layout \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
